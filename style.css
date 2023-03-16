@@ -118,6 +118,14 @@ body{
     gap: 0.4rem;
 }
 
+.cabecalho>div>a{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
 .cabecalho a span, .cabecalho-oculto a span{
     display: inline-block;
     height: 0.3rem;
@@ -676,7 +684,7 @@ body{
 
 /* Container Contatos - Fim */
 
-@media(max-width: 760px){
+@media(max-width: 1000px){
 
     .cabecalho{
         display: none;
